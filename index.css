@@ -31,7 +31,7 @@ nav{
 nav ul{
     display: flex;
     flex-wrap: wrap;
-    gap: 180px;
+    gap: 60px;
 }
 
 .li{
