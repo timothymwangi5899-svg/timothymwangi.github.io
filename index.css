@@ -181,3 +181,18 @@ nav ul li a:hover::after{
     background: #ff004f;
     transform: translateY(-10px);
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 200px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}
